@@ -1,22 +1,24 @@
 const header = document.querySelector('header');
 
 window.addEventListener('scroll', () =>{
-    if(window.scrollY > 50){
-        header.classList.remove('transparent');
+    if(window.scrollY > 90){
+        header.classList.add('scrolled');
     } else{
-        header.classList.add('transparent')
+        header.classList.remove('scrolled');
     }
-})
+});
 
 const navbar = document.querySelector('.navbar')
 
+
 window.addEventListener('scroll', ()=>{
-  if(window.scrollY > 100){
+  if(window.scrollY > 90){
     navbar.classList.add('scrolled');
   } else{
     navbar.classList.remove('scrolled');
   }
 });
+
 
 const hamburger = document.createElement('div');
 hamburger.classList.add('hamburger');

@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("DirectRequestsDeclineButtonConfirmFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("3349"),s=o("FalcoLoggerInternal").create("direct_requests_decline_button_confirm",e),u=s;l.default=u}),98);
+__d("DirectRequestsThreadAllowFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("3674"),s=o("FalcoLoggerInternal").create("direct_requests_thread_allow",e),u=s;l.default=u}),98);
+__d("DirectRequestsThreadDeclineFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("3675"),s=o("FalcoLoggerInternal").create("direct_requests_thread_decline",e),u=s;l.default=u}),98);
